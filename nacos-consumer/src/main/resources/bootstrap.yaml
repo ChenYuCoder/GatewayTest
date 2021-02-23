@@ -1,0 +1,10 @@
+server:
+  port: 8062
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        namespace: 08ecd1e5-c042-410a-84d5-b0a8fbeed8ea
+        server-addr: 192.168.17.55:8848

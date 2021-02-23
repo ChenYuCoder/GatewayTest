@@ -1,0 +1,10 @@
+server:
+  port: 8061
+spring:
+  application:
+    name: nacos-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.17.55:8848
+        namespace: 08ecd1e5-c042-410a-84d5-b0a8fbeed8ea
